@@ -1,0 +1,89 @@
+/* General styles for the login container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading style */
+  .login-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields styling */
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  /* Placeholder text */
+  .login-container input::placeholder {
+    color: #888;
+  }
+  
+  /* Login button */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .login-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Link to the signup page or password reset */
+  .login-container .login-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  .login-container .login-link:hover {
+    color: #333;
+  }
+  
+  /* Error message styling */
+  .login-container .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 500px) {
+    .login-container {
+      padding: 15px;
+    }
+  
+    .login-container h1 {
+      font-size: 20px;
+    }
+  }
+  
